@@ -4160,3 +4160,14 @@ input, select, textarea {
     content: "";
     margin: 0;
 }
+
+.cad-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1em;
+    gap: 0.5em;
+}
+.cad-buttons li {
+    margin: 0;
+}
