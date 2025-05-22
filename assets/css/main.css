@@ -110,31 +110,6 @@ input, select, textarea {
 		line-height: 1.65em;
 	}
 
-		@media screen and (max-width: 1680px) {
-
-			body, input, select, textarea {
-				font-size: 13pt;
-			}
-
-		}
-
-		@media screen and (max-width: 1280px) {
-
-			body, input, select, textarea {
-				font-size: 12pt;
-			}
-
-		}
-
-		@media screen and (max-width: 736px) {
-
-			body, input, select, textarea {
-				font-size: 11pt;
-				letter-spacing: 0.0375em;
-			}
-
-		}
-
 	a {
 		-moz-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
@@ -4170,4 +4145,50 @@ input, select, textarea {
 }
 .cad-buttons li {
     margin: 0;
+}
+
+@media screen and (max-width: 1680px) {
+
+	body,
+	input,
+	select,
+	textarea {
+		font-size: 13pt;
+	}
+
+}
+
+@media screen and (max-width: 1280px) {
+
+	body,
+	input,
+	select,
+	textarea {
+		font-size: 12pt;
+	}
+
+}
+
+@media screen and (max-width: 800px) {
+    #about-vanta,
+    #about {
+        font-size: 0.9em;
+    }
+    #about-vanta .icons.major img,
+    #about-vanta .icons.major .icon img {
+        height: 1.7em !important;
+        max-height: 1.7em !important;
+    }
+    #about-vanta .icons.major div {
+        font-size: 0.6em !important;
+    }
+    #about-vanta header h2,
+    #about header h2 {
+        font-size: 1.3em !important;
+    }
+    #about-vanta .actions .button,
+    #about .actions .button {
+        font-size: 0.85em !important;
+        padding: 0.5em 1.5em !important;
+    }
 }
